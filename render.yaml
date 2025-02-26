@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: reserhub-commerce-api
+    env: docker
+    dockerfilePath: ./apps/commerce-api/Dockerfile
+    plan: free
+    healthCheckPath: /hello/World
+    envVars:
+      - key: NODE_ENV
+        value: production
