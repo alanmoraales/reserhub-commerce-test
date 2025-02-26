@@ -6,7 +6,7 @@
   "license": "MPL-2.0",
   "type": "module",
   "scripts": {
-    "dev": "encore run --watch=true",
+    "dev": "encore run",
     "test": "vitest"
   },
   "devDependencies": {
