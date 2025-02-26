@@ -36,11 +36,3 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
-
-# Encore
-.encore
-encore.gen.go
-encore.gen.cue
-/.encore
-/encore.gen
-
