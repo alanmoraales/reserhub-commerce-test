@@ -39,3 +39,8 @@ yarn-error.log*
 
 # Encore
 .encore
+encore.gen.go
+encore.gen.cue
+/.encore
+/encore.gen
+
