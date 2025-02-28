@@ -5,15 +5,12 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
-    "gen:client": "encore gen client --lang typescript --output packages/commerce-api-client/index.ts",
+    "gen:api-client": "turbo run commerce-api#gen:api-client",
     "gen:package": "turbo generate workspace --type package --name"
   },
   "devDependencies": {
-    "prettier": "^3.5.0",
-    "turbo": "^2.4.4",
-    "typescript": "5.7.3"
+    "turbo": "^2.4.4"
   },
   "engines": {
     "node": ">=18"
@@ -22,8 +19,5 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "dependencies": {
-    "encore.dev": "^1.46.4"
-  }
+  ]
 }
