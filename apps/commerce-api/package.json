@@ -7,7 +7,8 @@
   "type": "module",
   "scripts": {
     "dev": "encore run",
-    "gen:api-client": "encore gen client --lang typescript --output ../../packages/commerce-api-client/index.ts",
+    "encore:gen-client": "encore gen client --lang typescript --output ../../packages/commerce-api-client/index.ts",
+    "encore:check": "encore check",
     "test": "vitest"
   },
   "devDependencies": {
