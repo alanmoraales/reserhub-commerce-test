@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "encore run",
+    "gen:api-client": "encore gen client --lang typescript --output ../../packages/commerce-api-client/index.ts",
     "test": "vitest"
   },
   "devDependencies": {
@@ -15,7 +16,7 @@
     "vitest": "^1.5.0"
   },
   "dependencies": {
-    "encore.dev": "^1.46.4"
+    "encore.dev": "^1.46.5"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.13.0"

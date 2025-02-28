@@ -13,6 +13,9 @@
     "check-types": {
       "dependsOn": ["^check-types"]
     },
+    "gen:api-client": {
+      "dependsOn": ["^gen:client"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
