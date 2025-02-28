@@ -13,8 +13,11 @@
     "check-types": {
       "dependsOn": ["^check-types"]
     },
-    "gen:api-client": {
-      "dependsOn": ["^gen:client"]
+    "encore:gen-client": {
+      "dependsOn": ["^encore:gen-client"]
+    },
+    "encore:check": {
+      "dependsOn": ["^encore:check"]
     },
     "dev": {
       "cache": false,
