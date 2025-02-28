@@ -77,7 +77,7 @@ export namespace hello {
          * To call it, run in your terminal:
          * curl http://localhost:4000/hello/World
          */
-        public async get(name: string): Promise<Response> {
+        public async get(name: number): Promise<Response> {
             // Now make the actual call to the API
             const resp = await this.baseClient.callTypedAPI("GET", `/hello/${encodeURIComponent(name)}`)
             return await resp.json() as Response
