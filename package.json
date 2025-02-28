@@ -4,9 +4,11 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "dev:commerce-api": "turbo run commerce-api#dev",
     "lint": "turbo run lint",
     "check-types": "turbo run check-types",
-    "gen:api-client": "turbo run commerce-api#gen:api-client",
+    "encore:gen-client": "turbo run commerce-api#encore:gen-client",
+    "encore:check": "turbo run commerce-api#encore:check",
     "gen:package": "turbo generate workspace --type package --name"
   },
   "devDependencies": {
