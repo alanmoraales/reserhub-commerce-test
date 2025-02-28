@@ -3,7 +3,7 @@ name: Commerce API Type Check
 on:
   pull_request:
     paths:
-      - "commerce-api/**"
+      - "apps/commerce-api/**"
 
 jobs:
   type-check:
